@@ -1,0 +1,6 @@
+set hlsearch
+set incsearch
+set ignorecase
+set spell
+syntax on
+

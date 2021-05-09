@@ -1,0 +1,15 @@
+ZSH_THEME="bira"
+
+plugins=(
+  git
+  autojump
+)
+
+PROMPT="%{$fg_bold[green]%}╭─%{$reset_color%}${current_dir} ${git_branch}%{$fg[magenta]%}%D{%I:%M:%S}%{$reset_color%}
+%{$fg_bold[green]%}╰─%{$reset_color%}%B${user_symbol}%b "
+
+
+gal() { 
+	printf '%s\n' $aliases[$1]
+}
+
