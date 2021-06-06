@@ -13,3 +13,5 @@ gal() {
 	printf '%s\n' $aliases[$1]
 }
 
+set -o vi
+
