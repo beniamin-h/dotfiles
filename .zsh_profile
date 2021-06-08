@@ -14,3 +14,5 @@ gal() {
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=238"
 bindkey -M viins '\e.' insert-last-word
 
+unsetopt AUTO_REMOVE_SLASH
+
