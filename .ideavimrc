@@ -1,5 +1,7 @@
-:set surround
-:set easymotion
-:map <C-A-U> :s#_\(\l\)#\u\1#g
-:map <C-A-L> :s#\(\<\u\l\+\|\l\+\)\(\u\)#\l\1_\l\2#g
-:map <leader>d "_d
+set surround
+set easymotion
+map <C-A-U> :s#_\(\l\)#\u\1#g
+map <C-A-L> :s#\(\<\u\l\+\|\l\+\)\(\u\)#\l\1_\l\2#g
+map <leader>d "_d
+set clipboard=
+vnoremap p "_dP
