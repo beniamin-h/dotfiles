@@ -34,3 +34,6 @@ export NVM_DIR="$HOME/.nvm"
 
 PROMPT="╭─${current_dir}${rvm_ruby}${vcs_branch}${venv_prompt}%{$fg_bold[green]%}%*%{$reset_color%}
 ╰─%B${user_symbol}%b "
+
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
